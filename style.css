@@ -143,4 +143,12 @@ figure{
         margin: auto;
         width: 50%;
     }
+
+    .tech-skills{
+        flex-wrap: wrap;
+    }
+
+    h3{
+        text-align: center;
+    }
 }
