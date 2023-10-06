@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(20, 33, 61);
+    color: rgb(229, 229, 229);
+    font-family: 'Gabarito', cursive;
+    font-weight: 50;
+    font-size: 18px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(252, 163, 17);
+    font-size: 1.5rem;
+
+}
+
+.intro{
+    display: flex;
+    border: 0.5rem dashed rgb(252, 163, 17);
+    padding: 3rem;
+}
+
+
+.main-image{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.intro-text{
+    margin: 0 60px;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+span{
+    font-size: 1.8rem;
+}
+
+.sub2{
+    width: 80%
+}
+
+#menu-button{
+    display:none;
+}
+
+.pixel{
+    font-family: 'Pixelify Sans', cursive;
+    color: rgb(252, 163, 17)
+}
+
+figcaption{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+figure{
+    border: 0.25rem solid rgb(252, 163, 17);
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%
+}
+
+p{
+    margin: 30px;
+}
+
+.tech-skills{
+    display: flex;
+}
+
+.tech-skills li {
+    background-color: #E5E5E5;
+    border-radius: 0.6rem;
+    color:rgb(252, 163, 17); 
+    border: 3px solid rgb(252, 163, 17);
+    margin: 1rem;
+    padding: 0.5rem;
+    list-style: none;
+    width: 100px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width:768px){
+    .intro{
+        display: block;
+        padding: 0;
+        border: none;
+    }
+
+    .intro-text{
+        margin:0;
+    }
+
+    .main-image{
+        width: 50%;
+        margin: auto;
+        display: block;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    span{
+        font-size: 1.5rem;
+    }
+
+    #options {
+        display: none
+    }
+
+    #menu-button{
+        display: block;
+        text-align: center;
+        font-family: 'Pixelify Sans', cursive;
+        background-color: rgb(252, 163, 17);
+        color: rgb(20, 33, 61)
+    }
+
+    #menu-button:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .aboutme-img{
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+}
