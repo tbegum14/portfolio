@@ -81,6 +81,10 @@ figure{
     width: 60%
 }
 
+figure img {
+    width: 40%;
+}
+
 .main-text{
     margin: 30px;
 }
@@ -100,6 +104,8 @@ figure{
     width: 100px;
     text-align: center;
 }
+
+
 
 
 @media only screen and (max-width:768px){
